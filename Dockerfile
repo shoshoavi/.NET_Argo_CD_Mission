@@ -1,5 +1,6 @@
-FROM mcr.microsoft.com/dotnet/samples:aspnetapp
+# Use the .NET sample image as the base image
+FROM mcr.microsoft.com/dotnet/samples
 
-EXPOSE 8080
+# Specify the default command to run when the container starts
+CMD ["dotnet", "--info"]
 
-CMD ["dotnet", "aspnetapp.dll"]
