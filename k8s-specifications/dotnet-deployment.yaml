@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: dotnet
-          image: shoshoavi/dotnet-repo:35
+          image: shoshoavi/dotnet-repo:36
